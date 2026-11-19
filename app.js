@@ -1,5 +1,5 @@
 // Configure your invite link here after creating the Discord application.
-const DISCORD_INVITE_URL = "https://discord.com/";
+const DISCORD_INVITE_URL = "https://discord.gg/JDhZEuu5T";
 
 document.querySelectorAll("#discordLink,#heroDiscord,#aiDiscord,#joinDiscord").forEach(link => {
   link.href = DISCORD_INVITE_URL;
