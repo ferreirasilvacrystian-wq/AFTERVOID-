@@ -1,0 +1,21 @@
+{
+  "name": "aftervoid",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AFTERVOID website and Discord AI bot",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "commands": "node src/deploy-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^7.5.0",
+    "openai": "^5.12.2"
+  }
+}
